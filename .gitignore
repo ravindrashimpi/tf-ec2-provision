@@ -1,0 +1,6 @@
+.terraform
+
+# Terragrunt
+.terragrunt-cache
+
+.vscode
