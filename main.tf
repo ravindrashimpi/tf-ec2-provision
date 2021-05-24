@@ -11,8 +11,8 @@ provider "aws" {
 **/
 //Step1-2
 resource "aws_instance" "ec2-instance" {
-  ami           = "ami-010aff33ed5991201"
-  instance_type = "t2.micro"
+  ami                    = "ami-0c1a7f89451184c8b"
+  instance_type          = "t2.micro"
 
   //Step-1-2-3-4
   key_name = "tf-tutorial"
