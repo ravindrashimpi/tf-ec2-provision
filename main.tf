@@ -10,7 +10,7 @@ terraform {
  backend "remote" {
   organization = "RaviSOrg"
    
-  workspace {
+  workspaces {
     name = "demo-github-actions"    
   }
  }
