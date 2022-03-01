@@ -11,7 +11,7 @@ terraform {
   organization = "RaviSOrg"
    
   workspaces {
-    name = "demo-github-actions"    
+    name = "tf-ec2-provision"    
   }
  }
  
