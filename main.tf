@@ -28,7 +28,7 @@ provider "aws" {
 /**
 * Provision a new EC2 instance
 **/
-# resource "aws_instance" "ec2-instance" {
-#   ami                    = "ami-048ff3da02834afdc"
-#   instance_type          = "t2.micro"
-# }
+resource "aws_instance" "ec2-instance" {
+  ami                    = "ami-048ff3da02834afdc"
+  instance_type          = "t2.micro"
+}
