@@ -8,7 +8,7 @@ terraform {
  required_version = "~> 1.0"
   
  backend "remote" {
-  organization = "SailuORG"
+ organization = "SailuORG"
    
   workspaces {
     name = "tf-ec2-provision"    
