@@ -8,7 +8,7 @@ terraform {
  required_version = "~> 1.0"
   
  backend "remote" {
-  organization = "SailuORG"
+ organization = "SailuORG"
    
   workspaces {
     name = "tf-ec2-provision"    
@@ -22,7 +22,7 @@ terraform {
 * First step is to select the provider
 **/
 provider "aws" {
-  region = "us-west-1"
+  region = "us-east-1"
 }
 
 /**
@@ -30,6 +30,7 @@ provider "aws" {
 **/
  /*
  * Changes made by Sailu 
+ * Changes done by Ravi on his branch
 */
 resource "aws_instance" "ec2-instance" {
   ami                    = "ami-048ff3da02834afdc"
