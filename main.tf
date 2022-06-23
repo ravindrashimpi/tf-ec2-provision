@@ -29,6 +29,7 @@ provider "aws" {
 * Provision a new EC2 instance
 **/
  /*
+ * Changes made by Sailu 
  * Changes done by Ravi on his branch
 */
 resource "aws_instance" "ec2-instance" {
